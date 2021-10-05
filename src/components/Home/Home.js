@@ -4,8 +4,7 @@ import img8 from "../../image/teach-8.jpg";
 import "./Home.css";
 import ServicesCard from "../ServicesCard/ServicesCard";
 
-// import ServicesCard from "../ServicesCard/ServicesCard";
-
+// load data from json
 const Home = () => {
   const [services, setServices] = useState([]);
 
@@ -43,6 +42,8 @@ const Home = () => {
         </Container>
       </div>
       <Container>
+        {/* slice data for ui */}
+        <h1>Our Services</h1>
         <Row md={4}>
           {services.slice(0, 6).map((service) => (
             <ServicesCard service={service} key={service.id}></ServicesCard>

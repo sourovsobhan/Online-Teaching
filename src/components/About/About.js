@@ -4,6 +4,7 @@ import "./About.css";
 import img9 from "../../image/teach-9.jpg";
 const About = () => {
   return (
+    // about section
     <div>
       <h1>About us</h1>
       <div className="top-margin">
@@ -46,7 +47,7 @@ const About = () => {
             </Col>
           </Row>
         </Container>
-
+        {/* student complement section */}
         <Container fluid="md">
           <h1 className="mb-4"> Student Says About Us</h1>
           <Row>

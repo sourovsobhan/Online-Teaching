@@ -4,6 +4,7 @@ import img6 from "../../image/teach-6.jpg";
 import "./Contact.css";
 const Contact = () => {
   return (
+    // contact section
     <div>
       <div className="margin-top">
         <Container>
