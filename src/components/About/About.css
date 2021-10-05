@@ -1,0 +1,18 @@
+.student-img {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+.about-us {
+  background-color: #383838;
+  color: white;
+  padding: 30px;
+}
+.top-margin {
+  margin: 40px 0px;
+  padding: 20px;
+}
+.mb-4 {
+  margin-bottom: 1.5rem !important;
+  margin-top: 40px;
+}
